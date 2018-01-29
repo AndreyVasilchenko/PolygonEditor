@@ -1,0 +1,4 @@
+D:\users\Andrey\Documents\visual studio 2013\Projects\MartinezRuedaClipping\CL_MartinezRuedaClipping\bin\Debug\CL_MartinezRuedaClipping.dll
+D:\users\Andrey\Documents\visual studio 2013\Projects\MartinezRuedaClipping\CL_MartinezRuedaClipping\bin\Debug\CL_MartinezRuedaClipping.pdb
+D:\users\Andrey\Documents\visual studio 2013\Projects\MartinezRuedaClipping\CL_MartinezRuedaClipping\obj\Debug\CL_MartinezRuedaClipping.dll
+D:\users\Andrey\Documents\visual studio 2013\Projects\MartinezRuedaClipping\CL_MartinezRuedaClipping\obj\Debug\CL_MartinezRuedaClipping.pdb

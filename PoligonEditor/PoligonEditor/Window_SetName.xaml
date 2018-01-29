@@ -1,0 +1,38 @@
+﻿<Window x:Class="PolygonEditor.Window_SetName"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon="images/Simple.ico" 
+        Height="128" Width="333" WindowStartupLocation="CenterOwner" ResizeMode="NoResize" Topmost="True">
+
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="MinWidth" Value="60"/>
+            <Setter Property="MinHeight" Value="20"/>
+            <Setter Property="Margin" Value="5,0,10,5"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="0,0,0,1">
+        <Grid.Background>
+            <ImageBrush ImageSource="images\bg_46.jpg" Viewport="0,0,256,256" ViewportUnits="Absolute" TileMode="Tile"/>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*" />
+            <RowDefinition Height="5*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="55" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Label Name="Label_Name" Content="Name:" Margin="5,12" />
+
+        <TextBox Text="{Binding InstanceName}" Grid.Column="1" Margin="5,12,10,12"/>
+
+        <StackPanel  Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Left" Margin="35,5,0,5" Width="160" Grid.Column="1" >
+            <Button IsDefault="True" Click="Accept_Click">OK</Button>
+            <Button IsCancel="True">Cancel</Button>
+        </StackPanel>
+    </Grid>
+</Window>

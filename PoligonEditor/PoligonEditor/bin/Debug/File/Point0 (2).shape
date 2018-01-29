@@ -1,0 +1,15 @@
+[
+  {
+    "ShapeName": "Point0",
+    "ShapeType": "Point",
+    "StrokeWeight": 4,
+    "StrokeColor": "#FF48D1CC",
+    "FillColor": null,
+    "GeometricParams": [
+      {
+        "ParamName": "PointCordinates",
+        "ParamValue": "147,176"
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "ShapeName": "Polygon0",
+    "ShapeType": "Polygon",
+    "StrokeWeight": 1,
+    "StrokeColor": "#FF000000",
+    "FillColor": "#80808080",
+    "GeometricParams": [
+      {
+        "ParamName": "Point1",
+        "ParamValue": "104,106"
+      },
+      {
+        "ParamName": "Point2",
+        "ParamValue": "213,130"
+      },
+      {
+        "ParamName": "Point3",
+        "ParamValue": "177,208"
+      }
+    ]
+  }
+]

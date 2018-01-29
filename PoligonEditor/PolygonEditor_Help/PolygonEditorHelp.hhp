@@ -1,0 +1,22 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=PolygonEditorHelp.chm
+Contents file=TableOfContents.hhc
+Default topic=PolygonEditor.htm
+Display compile notes=No
+Display compile progress=Yes
+Language=0x419 Русский (Россия)
+
+
+[FILES]
+PolygonEditor.htm
+Mode_CreatNewShape.htm
+Mode_Edit.htm
+Mode_Selection.htm
+Mode_PolygonOperations.htm
+InterfaceSpecificity.htm
+ApplicationModes.htm
+ApplicationDescription.htm
+
+[INFOTYPES]
+
