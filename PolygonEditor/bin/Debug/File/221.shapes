@@ -1,0 +1,300 @@
+[
+  {
+    "ShapeName": "Polygon1",
+    "ShapeType": "Polygon",
+    "StrokeWeight": 1,
+    "StrokeColor": "#FF000000",
+    "FillColor": "#89D43C27",
+    "GeometricParams": [
+      {
+        "ParamName": "Point8",
+        "ParamValue": "427,140"
+      },
+      {
+        "ParamName": "Point7",
+        "ParamValue": "181,152"
+      },
+      {
+        "ParamName": "Point6",
+        "ParamValue": "421,175"
+      },
+      {
+        "ParamName": "Point5",
+        "ParamValue": "150,195"
+      },
+      {
+        "ParamName": "Point4",
+        "ParamValue": "92,306"
+      },
+      {
+        "ParamName": "Point3",
+        "ParamValue": "429,57"
+      },
+      {
+        "ParamName": "Point2",
+        "ParamValue": "119,137"
+      }
+    ]
+  },
+  {
+    "ShapeName": "Polygon1",
+    "ShapeType": "Polygon",
+    "StrokeWeight": 1,
+    "StrokeColor": "#FF000000",
+    "FillColor": "#160000FF",
+    "GeometricParams": [
+      {
+        "ParamName": "Point8",
+        "ParamValue": "367,184"
+      },
+      {
+        "ParamName": "Point7",
+        "ParamValue": "296,69"
+      },
+      {
+        "ParamName": "Point6",
+        "ParamValue": "279,312"
+      },
+      {
+        "ParamName": "Point5",
+        "ParamValue": "269,79"
+      },
+      {
+        "ParamName": "Point4",
+        "ParamValue": "99,340"
+      },
+      {
+        "ParamName": "Point3",
+        "ParamValue": "247,36"
+      },
+      {
+        "ParamName": "Point2",
+        "ParamValue": "307,41"
+      }
+    ]
+  },
+  {
+    "ShapeName": "IntersectPolygon1",
+    "ShapeType": "Polygon",
+    "StrokeWeight": 1,
+    "StrokeColor": "#FF3CB371",
+    "FillColor": "#8000FF00",
+    "GeometricParams": [
+      {
+        "ParamName": "Point5",
+        "ParamValue": "129,279"
+      },
+      {
+        "ParamName": "Point4",
+        "ParamValue": "170,194"
+      },
+      {
+        "ParamName": "Point3",
+        "ParamValue": "196,192"
+      },
+      {
+        "ParamName": "Point2",
+        "ParamValue": "148,264"
+      }
+    ]
+  },
+  {
+    "ShapeName": "IntersectPolygon2",
+    "ShapeType": "Polygon",
+    "StrokeWeight": 1,
+    "StrokeColor": "#FF3CB371",
+    "FillColor": "#8000FF00",
+    "GeometricParams": [
+      {
+        "ParamName": "Point5",
+        "ParamValue": "190,153"
+      },
+      {
+        "ParamName": "Point4",
+        "ParamValue": "191,152"
+      },
+      {
+        "ParamName": "Point3",
+        "ParamValue": "223,150"
+      },
+      {
+        "ParamName": "Point2",
+        "ParamValue": "219,156"
+      }
+    ]
+  },
+  {
+    "ShapeName": "IntersectPolygon3",
+    "ShapeType": "Polygon",
+    "StrokeWeight": 1,
+    "StrokeColor": "#FF3CB371",
+    "FillColor": "#8000FF00",
+    "GeometricParams": [
+      {
+        "ParamName": "Point5",
+        "ParamValue": "197,138"
+      },
+      {
+        "ParamName": "Point4",
+        "ParamValue": "209,114"
+      },
+      {
+        "ParamName": "Point3",
+        "ParamValue": "254,102"
+      },
+      {
+        "ParamName": "Point2",
+        "ParamValue": "231,138"
+      }
+    ]
+  },
+  {
+    "ShapeName": "IntersectPolygon4",
+    "ShapeType": "Polygon",
+    "StrokeWeight": 1,
+    "StrokeColor": "#FF3CB371",
+    "FillColor": "#8000FF00",
+    "GeometricParams": [
+      {
+        "ParamName": "Point5",
+        "ParamValue": "270,98"
+      },
+      {
+        "ParamName": "Point4",
+        "ParamValue": "294,92"
+      },
+      {
+        "ParamName": "Point3",
+        "ParamValue": "291,139"
+      },
+      {
+        "ParamName": "Point2",
+        "ParamValue": "272,138"
+      }
+    ]
+  },
+  {
+    "ShapeName": "IntersectPolygon5",
+    "ShapeType": "Polygon",
+    "StrokeWeight": 1,
+    "StrokeColor": "#FF3CB371",
+    "FillColor": "#8000FF00",
+    "GeometricParams": [
+      {
+        "ParamName": "Point11",
+        "ParamValue": "272,148"
+      },
+      {
+        "ParamName": "Point10",
+        "ParamValue": "291,147"
+      },
+      {
+        "ParamName": "Point9",
+        "ParamValue": "290,160"
+      },
+      {
+        "ParamName": "Point8",
+        "ParamValue": "287,162"
+      },
+      {
+        "ParamName": "Point7",
+        "ParamValue": "289,162"
+      },
+      {
+        "ParamName": "Point6",
+        "ParamValue": "288,185"
+      },
+      {
+        "ParamName": "Point5",
+        "ParamValue": "274,186"
+      },
+      {
+        "ParamName": "Point4",
+        "ParamValue": "273,172"
+      },
+      {
+        "ParamName": "Point3",
+        "ParamValue": "287,162"
+      },
+      {
+        "ParamName": "Point2",
+        "ParamValue": "273,161"
+      }
+    ]
+  },
+  {
+    "ShapeName": "IntersectPolygon6",
+    "ShapeType": "Polygon",
+    "StrokeWeight": 1,
+    "StrokeColor": "#FF3CB371",
+    "FillColor": "#8000FF00",
+    "GeometricParams": [
+      {
+        "ParamName": "Point5",
+        "ParamValue": "308,88"
+      },
+      {
+        "ParamName": "Point4",
+        "ParamValue": "325,84"
+      },
+      {
+        "ParamName": "Point3",
+        "ParamValue": "341,122"
+      },
+      {
+        "ParamName": "Point2",
+        "ParamValue": "333,128"
+      }
+    ]
+  },
+  {
+    "ShapeName": "IntersectPolygon7",
+    "ShapeType": "Polygon",
+    "StrokeWeight": 1,
+    "StrokeColor": "#FF3CB371",
+    "FillColor": "#8000FF00",
+    "GeometricParams": [
+      {
+        "ParamName": "Point5",
+        "ParamValue": "339,139"
+      },
+      {
+        "ParamName": "Point4",
+        "ParamValue": "348,139"
+      },
+      {
+        "ParamName": "Point3",
+        "ParamValue": "350,144"
+      },
+      {
+        "ParamName": "Point2",
+        "ParamValue": "342,144"
+      }
+    ]
+  },
+  {
+    "ShapeName": "IntersectPolygon8",
+    "ShapeType": "Polygon",
+    "StrokeWeight": 1,
+    "StrokeColor": "#FF3CB371",
+    "FillColor": "#8000FF00",
+    "GeometricParams": [
+      {
+        "ParamName": "Point5",
+        "ParamValue": "358,169"
+      },
+      {
+        "ParamName": "Point4",
+        "ParamValue": "361,169"
+      },
+      {
+        "ParamName": "Point3",
+        "ParamValue": "365,179"
+      },
+      {
+        "ParamName": "Point2",
+        "ParamValue": "364,179"
+      }
+    ]
+  }
+]

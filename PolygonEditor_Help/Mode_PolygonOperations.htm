@@ -1,0 +1,74 @@
+﻿<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html><head>
+
+
+
+<meta name="GENERATOR" content="Microsoft® HTML Help Workshop 4.1"><title>Mode_PolygonOperations</title></head><body style="margin: 12px; background-color: rgb(255, 255, 255); font-family: 'Trebuchet MS',Tahoma,Arial,Helvetica,sans-serif;">
+<h2 style="color: rgb(61, 122, 153);"><span class="f_H1">Режим
+"PolygonOperations" - выполнение булевых операций над полигонами<br>
+</span></h2>
+&nbsp;&nbsp;&nbsp; Данный режим программы явлется целью всего
+демонстрационного задания - булевые операции над полигонами. Также в
+этом режиме возможно
+сохранение результатов выполнения этих операций.<br><br>
+Активировать режим "PolygonOperations" можно выбором пункта в основном
+меню приложения или нажатием кнопки в меню быстрого доступа:<br>
+
+<img src="View_Mode%28PoligonOperation%29.png" alt=""><br>
+
+<br>&nbsp;&nbsp;&nbsp; Если при входе в режим "PolygonOperations", в области рисования были
+какие-нибудь фигуры, кроме полигонов, то эти фигуры автоматически
+стираются и остаются только полигоны. Все эти полигоны переходят в
+категорию Subject - полигоны над которыми будет выполнятся булевая
+операция. <br>
+&nbsp;&nbsp;&nbsp; Для выполнения булевой операции, пользователю сначала
+необходимо при помощи мыши(нажатие левой клавиши мыши на полигоне в фокусе курсора) выбрать из полигонов категории Subject
+хотя бы один, который будет полигоном категории Clipper. Между
+полигонами категорий Subject и Clipper и будет выполнена булевая
+операция. Тип&nbsp; этой операции также предварительно выбирается
+пользователем. <br>
+&nbsp;&nbsp;&nbsp; По итогам выполнения булевой операции между Subject и
+Clippers, программа создает новые полигоны категории Result. Полигоны
+категории Result выводятся в области рисования фигур поверх полигонов,
+над которыми выполнена булевая операция. При сохранении булевой
+операции, приложение сохраняет все полигоны всех трех категорий.<br>
+
+<br>
+После активации режима "PolygonOperations":<br>
+&nbsp;&nbsp;&nbsp; 1) 
+Боковая панель для ручного ввода координат фигуры становиться
+недоступной, но отробажает координаты точек построения фигуры, которая в настоящий момент находится в фокусе курсора мыши.<br>
+
+&nbsp;&nbsp;&nbsp; 2) Горизонтальное меню быстрого доступа приобретает следующий вид:<br>
+
+<img src="View_HorizontalMenu%28ForPolygonOperations%29.png" alt=""><br>
+При помощи пунктов этого меню, можно выполнить следующие действия:<br>
+<br>
+&nbsp;&nbsp;&nbsp; - выбор типа булевой операции(Intersection,XOR,Diference,Union) производится в чек-боксе:<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; <img src="View_OperationsTypes.png" alt=""><br>
+<br>
+&nbsp;&nbsp;&nbsp; - запуск выполнения булевой операции - нажатие кнопки:<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  <img src="View_OperationRun.png" alt=""><br>
+<br>
+&nbsp;&nbsp;&nbsp; - стереть все полигоны, получившиеся в результате булевой операции - нажатие кнопки:<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  <img src="View_DeleteResults.png" alt=""><br>
+<br>
+&nbsp;&nbsp;&nbsp; - выбор полигонов категории Clippers возможен когда "зафиксирована" кнопка:<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  <img src="View_SetClippers.png" alt=""><br>
+<br>
+&nbsp;&nbsp;&nbsp; - отменить выбор всех ранее выбранных - нажатие кнопки:<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  <img src="View_UndoClippers.png" alt=""><br>
+<br>
+&nbsp;&nbsp;&nbsp; - выбрать отображение на "холсте" полигонов определенной категории - фиксация необходимой кнопки из набора:<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  <img src="View_ShowPolygons.png" alt=""><br>
+<br>
+<br>
+<br>&nbsp;&nbsp;&nbsp; Если у Вас возникли вопросы, как использовать мышь или клавиатуру, обратитесь в раздел
+Справки: <a href="InterfaceSpecificity.htm" style="text-decoration: none; color: rgb(0, 175, 100);">"Особенности
+Интерфейса"</a>.
+<br>
+
+<br>
+
+<br>
+</body></html>
