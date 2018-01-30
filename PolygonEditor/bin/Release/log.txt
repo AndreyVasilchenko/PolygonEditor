@@ -1,1 +1,3 @@
 
+30.01.2018 11:13:46 - Application Loaded
+30.01.2018 11:34:14 - Application Closed

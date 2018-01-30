@@ -53,7 +53,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>images\Simple.ico</ApplicationIcon>
+    <ApplicationIcon>images\polygons.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DnsClient, Version=1.0.7.0, Culture=neutral, PublicKeyToken=4574bb5573c51424, processorArchitecture=MSIL">
@@ -322,9 +322,6 @@
     <Resource Include="images\Simple.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="images\figures.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="images\draw_point_off.png" />
   </ItemGroup>
   <ItemGroup>
@@ -408,6 +405,9 @@
       <Project>{97c2581d-3422-478a-a5ce-7d019a7e418e}</Project>
       <Name>CL_MartinezRuedaClipping</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\polygons.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
