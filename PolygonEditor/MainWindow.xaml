@@ -5,6 +5,7 @@
         xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms" 
         xmlns:с="clr-namespace:PolygonEditor"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        Name="windowPolygonEditor"
         Title="Polygon Editor" Icon="images/Simple.ico"
         Height="535" Width="864" MinHeight="535" MinWidth="864" WindowStartupLocation="CenterScreen"
         >
@@ -470,7 +471,7 @@
                     </Rectangle.Fill>
                 </Rectangle>
                 <Canvas.Triggers>
-                    <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                    <EventTrigger RoutedEvent="Loaded">
                         <BeginStoryboard>
                             <Storyboard>
                                 <DoubleAnimation Storyboard.TargetName="LogoBrush" 
@@ -491,6 +492,7 @@
                 </Canvas.Triggers>
 
             </Canvas>
+            <!---"FrameworkElement.Loaded"-->
 
             <!-- Панель для отображения создаваемых и загружаемых геометрических фигур -->
             <Canvas x:Name="DrawingPane" Width="{Binding ActualWidth, ElementName=EditorPane}" Height="{Binding ActualHeight, ElementName=EditorPane}" 
@@ -510,22 +512,6 @@
                 </Label.IsEnabled>
             </Label>
 
-            <!--Button FontSize="14" FontWeight="Bold" Canvas.Left="554" Canvas.Top="244"-->
-            <!--Set the Background property of the Button to a LinearGradientBrush.-->
-            <!--Button.Background>
-                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                        <GradientStop Color="Green" Offset="0" />
-                        <GradientStop Color="White" Offset="1" />
-                    </LinearGradientBrush-->
-
-            <!--/>
-                    View message-->
-            <!--/Button-->
-            <!--            <TextBox Text="{Binding ShapeStrokeColor , UpdateSourceTrigger=PropertyChanged }" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="28" Width="75" Background="White" Canvas.Left="159" Canvas.Top="143"/>
-            <TextBox Text="{Binding IsMouseDraws, UpdateSourceTrigger=PropertyChanged }" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="28" Width="75" Background="White" Canvas.Left="160" Canvas.Top="100"/>
-            <TextBox Text="{Binding ShapeType, UpdateSourceTrigger=PropertyChanged }" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="28" Width="75" Background="White" Canvas.Left="160" Canvas.Top="70"/>
-            <TextBox Text="{Binding IsSelectedShapeForEdit, UpdateSourceTrigger=PropertyChanged }" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="28" Width="75" Background="White" Canvas.Left="160" Canvas.Top="10"/>
--->
         </Canvas>
 
     </Grid>

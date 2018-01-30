@@ -104,13 +104,11 @@ namespace PolygonEditor
             UpdateCurrentInstance();
             if (instance_id == null)
             {
-                this.DialogResult = false;
                 MessageBox.Show("You did not select the object to download!");
             }
             else
             {
                 this.DialogResult = true;
-                this.Close();
             }
         }
 
@@ -173,6 +171,14 @@ namespace PolygonEditor
                     instance_name = operation_name;
                     break;
             }
+        }
+
+        private void Grid_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            UpdateCurrentInstance();
+
+            if (instance_id != null)
+                this.DialogResult = true;
         }
 
     }

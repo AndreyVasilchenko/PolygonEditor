@@ -1,0 +1,17 @@
+{
+  "ShapeName": "Line0",
+  "ShapeType": "Line",
+  "StrokeWeight": 1,
+  "StrokeColor": "#FF000000",
+  "FillColor": null,
+  "GeometricParams": [
+    {
+      "ParamName": "StartPoint",
+      "ParamValue": "69,73"
+    },
+    {
+      "ParamName": "EndPoint",
+      "ParamValue": "239,152"
+    }
+  ]
+}

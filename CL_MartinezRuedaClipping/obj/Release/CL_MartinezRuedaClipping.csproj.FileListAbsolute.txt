@@ -1,0 +1,4 @@
+D:\users\Andrey\Documents\GitHub\PolygonEditor\CL_MartinezRuedaClipping\bin\Release\CL_MartinezRuedaClipping.dll
+D:\users\Andrey\Documents\GitHub\PolygonEditor\CL_MartinezRuedaClipping\bin\Release\CL_MartinezRuedaClipping.pdb
+D:\users\Andrey\Documents\GitHub\PolygonEditor\CL_MartinezRuedaClipping\obj\Release\CL_MartinezRuedaClipping.dll
+D:\users\Andrey\Documents\GitHub\PolygonEditor\CL_MartinezRuedaClipping\obj\Release\CL_MartinezRuedaClipping.pdb

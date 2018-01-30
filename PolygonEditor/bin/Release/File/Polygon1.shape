@@ -1,0 +1,37 @@
+{
+  "ShapeName": "Polygon1",
+  "ShapeType": "Polygon",
+  "StrokeWeight": 1,
+  "StrokeColor": "#FF000000",
+  "FillColor": "#897FFFD4",
+  "GeometricParams": [
+    {
+      "ParamName": "Point1",
+      "ParamValue": "269,81"
+    },
+    {
+      "ParamName": "Point2",
+      "ParamValue": "282,225"
+    },
+    {
+      "ParamName": "Point3",
+      "ParamValue": "334,86"
+    },
+    {
+      "ParamName": "Point4",
+      "ParamValue": "321,256"
+    },
+    {
+      "ParamName": "Point5",
+      "ParamValue": "227,265"
+    },
+    {
+      "ParamName": "Point6",
+      "ParamValue": "189,90"
+    },
+    {
+      "ParamName": "Point7",
+      "ParamValue": "243,227"
+    }
+  ]
+}

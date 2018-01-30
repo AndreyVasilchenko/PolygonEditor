@@ -1,0 +1,35 @@
+[
+  {
+    "ShapeName": "PolyLine0",
+    "ShapeType": "PolyLine",
+    "StrokeWeight": 1,
+    "StrokeColor": "#FF000000",
+    "FillColor": null,
+    "GeometricParams": [
+      {
+        "ParamName": "Point1",
+        "ParamValue": "96,94"
+      },
+      {
+        "ParamName": "Point2",
+        "ParamValue": "172,68"
+      },
+      {
+        "ParamName": "Point3",
+        "ParamValue": "235,141"
+      },
+      {
+        "ParamName": "Point4",
+        "ParamValue": "218,222"
+      },
+      {
+        "ParamName": "Point5",
+        "ParamValue": "149,263"
+      },
+      {
+        "ParamName": "Point6",
+        "ParamValue": "97,192"
+      }
+    ]
+  }
+]

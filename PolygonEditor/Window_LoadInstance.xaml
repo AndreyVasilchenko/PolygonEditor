@@ -23,7 +23,7 @@
         </Grid.RowDefinitions>
         <TabControl Name="CollectionSelector" Margin="20,14,19,0">
             <TabItem Header="Shapes">
-                <DataGrid Name="ShapesGrid" Margin="0,0,0,0" AutoGenerateColumns="False"  IsReadOnly="True" SelectionChanged="Grid_SelectionChanged">
+                <DataGrid Name="ShapesGrid" Margin="0,0,0,0" AutoGenerateColumns="False"  IsReadOnly="True" SelectionChanged="Grid_SelectionChanged"  MouseDoubleClick="Grid_MouseDoubleClick">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="Id" Binding="{Binding Id}" Visibility="Hidden"/>
                         <DataGridTextColumn Header="Name" MinWidth="296" MaxWidth="296" Binding="{Binding Name}" />
@@ -31,7 +31,7 @@
                 </DataGrid>
             </TabItem>
             <TabItem Header="ShapeGroups">
-                <DataGrid Name="ShapeGroupsGrid" Margin="0,0,0,0" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="Grid_SelectionChanged" >
+                <DataGrid Name="ShapeGroupsGrid" Margin="0,0,0,0" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="Grid_SelectionChanged" MouseDoubleClick="Grid_MouseDoubleClick">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="Id" Binding="{Binding Id}" Visibility="Hidden"/>
                         <DataGridTextColumn Header="Name" MinWidth="296" MaxWidth="296" Binding="{Binding Name}"/>
@@ -39,7 +39,7 @@
                 </DataGrid>
             </TabItem>
             <TabItem Header="PolygonOperations">
-                <DataGrid Name="PolygonOperationsGrid" Margin="0,0,0,0" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="Grid_SelectionChanged" >
+                <DataGrid Name="PolygonOperationsGrid" Margin="0,0,0,0" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="Grid_SelectionChanged"  MouseDoubleClick="Grid_MouseDoubleClick">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="Id" Binding="{Binding Id}" Visibility="Hidden"/>
                         <DataGridTextColumn Header="Name" MinWidth="296" MaxWidth="296" Binding="{Binding Name}"/>

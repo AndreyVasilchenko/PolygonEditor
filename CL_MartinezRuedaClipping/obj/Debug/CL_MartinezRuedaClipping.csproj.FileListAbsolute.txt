@@ -6,3 +6,7 @@ D:\users\Andrey\Documents\visual studio 2013\Projects\PolygonEditor\CL_MartinezR
 D:\users\Andrey\Documents\visual studio 2013\Projects\PolygonEditor\CL_MartinezRuedaClipping\bin\Debug\CL_MartinezRuedaClipping.pdb
 D:\users\Andrey\Documents\visual studio 2013\Projects\PolygonEditor\CL_MartinezRuedaClipping\obj\Debug\CL_MartinezRuedaClipping.dll
 D:\users\Andrey\Documents\visual studio 2013\Projects\PolygonEditor\CL_MartinezRuedaClipping\obj\Debug\CL_MartinezRuedaClipping.pdb
+D:\users\Andrey\Documents\GitHub\PolygonEditor\CL_MartinezRuedaClipping\bin\Debug\CL_MartinezRuedaClipping.dll
+D:\users\Andrey\Documents\GitHub\PolygonEditor\CL_MartinezRuedaClipping\bin\Debug\CL_MartinezRuedaClipping.pdb
+D:\users\Andrey\Documents\GitHub\PolygonEditor\CL_MartinezRuedaClipping\obj\Debug\CL_MartinezRuedaClipping.dll
+D:\users\Andrey\Documents\GitHub\PolygonEditor\CL_MartinezRuedaClipping\obj\Debug\CL_MartinezRuedaClipping.pdb
