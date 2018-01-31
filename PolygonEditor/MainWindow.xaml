@@ -40,7 +40,7 @@
             <MenuItem x:Name="FILE" Header="FILE" Margin="2,0,0,0">
                 <MenuItem x:Name="LOAD" Header="Load...">
                     <MenuItem x:Name="LoadFormFile" Header="from File" ToolTip="Load Shape/ShapeCollection/PolygonOperation from File" Command="{Binding LoadInstanceFromFile}"/>
-                    <MenuItem x:Name="LoadFormDataBase" Header="form DataBase" ToolTip="Load Shape/ShapeCollection/PolygonOperation from DataBase" Command="{Binding LoadInstanceFromDataBase}"/>
+                    <MenuItem x:Name="LoadFromDataBase" Header="from DataBase" ToolTip="Load Shape/ShapeCollection/PolygonOperation from DataBase" Command="{Binding LoadInstanceFromDataBase}"/>
                 </MenuItem>
                 <MenuItem Header="Save(Selected)..." IsEnabled="{Binding SelectedShapeCount, Converter={StaticResource NumericToBooleanConverter}}">
                     <MenuItem Header="to File" ToolTip="Save Shape/ShapeCollection to File" Command="{Binding SaveShapesToFile }"/>
